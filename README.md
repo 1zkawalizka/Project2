@@ -1,1 +1,1 @@
-# Project2
+in Student class i removed hash 
