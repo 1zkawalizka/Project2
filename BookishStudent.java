@@ -7,7 +7,7 @@ public class BookishStudent extends Student {
     }
 
     @Override
-    public getType(){return "bookish"; }
+    public String getType(){return "bookish"; }
 
     public boolean preferBooks() {return true;}
 
@@ -24,3 +24,4 @@ public class BookishStudent extends Student {
     }
 
 }
+
