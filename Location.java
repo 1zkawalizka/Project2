@@ -20,10 +20,11 @@ public class Location implements Serializable{
     {
         return this.lon==other.lon && this.lat==other.lat;
     }
-    @Override
+
     public String getCoordinates()
     {
         return "("+lat+","+lon+")";
     }
 }
+
 
